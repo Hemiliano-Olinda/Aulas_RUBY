@@ -31,14 +31,14 @@ loop do
             print "----Digite um numero inteiro: "
             n2 = gets.chomp.to_i
             resp = n1 + n2
-            puts "-- O Numero #{n1} + #{n2} = #{resp} "
+            puts "-- O Numero: #{n1} + #{n2} = #{resp} "
         when 2
             print "----Digite um numero inteiro: "
             n1 = gets.chomp.to_i
             print "----Digite um numero inteiro: "
             n2 = gets.chomp.to_i
             resp = n1 - n2
-            puts "-- O Numero #{n1} - #{n2} = #{resp} "
+            puts "-- O Numero: #{n1} - #{n2} = #{resp} "
         when 3
             print "----Digite um numero inteiro: "
 
@@ -46,14 +46,14 @@ loop do
             print "----Digite um numero inteiro: "
             n2 = gets.chomp.to_i
             resp = n1 * n2
-            puts "-- O Numero #{n1} x #{n2} = #{resp} "
+            puts "-- O Numero: #{n1} x #{n2} = #{resp} "
         when 4
             print "----Digite um numero inteiro: "
             n1 = gets.chomp.to_i
             print "----Digite um numero inteiro: "
             n2 = gets.chomp.to_i
             resp = n1 / n2
-            puts "-- O Numero #{n1} / #{n2} = #{resp} e resto: #{n1%n2}  "  
+            puts "-- O Numero: #{n1} / #{n2} = #{resp} e resto: #{n1%n2}  "  
         else
             puts "----Opção Invalita---------"
 
