@@ -10,15 +10,15 @@ def potencia ( x , y)
  x**y 
 end
 
-# puts "------------------------------------"
-# puts "-------------1 º TAREFA-------------"
-# puts "------------------------------------"
-# print "---Digite um Numero: " 
-# n1 = gets.chomp.to_i
-# print "---Digite a Potencia: "
-# n2 = gets.chomp.to_i
-# puts "------------------------------------"
-# puts "Resposta: o Numero #{n1} elevado a \npoencia de #{n2} resulta em: #{potencia n1,n2}"
+puts "------------------------------------"
+puts "-------------1 º TAREFA-------------"
+puts "------------------------------------"
+print "---Digite um Numero: " 
+n1 = gets.chomp.to_i
+print "---Digite a Potencia: "
+n2 = gets.chomp.to_i
+puts "------------------------------------"
+puts "Resposta: o Numero #{n1} elevado a \npoencia de #{n2} resulta em: #{potencia n1,n2}"
 
 puts "------------------------------------"
 puts "-------------2 º TAREFA-------------"
