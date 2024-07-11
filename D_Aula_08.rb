@@ -28,8 +28,6 @@ module Person
 
 end
 
-
-
 nome_P = []
 
 def nomes_lambdas(nome_lam,nome_P)
